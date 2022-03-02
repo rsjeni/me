@@ -1,0 +1,22 @@
+[
+    {
+        "name": "youtube",
+        "link": "https://www.youtube.com/channel/UCA3JQkNfctjuSA9yuWk-faQ",
+        "image": "social/youtube.svg"
+    },
+    {
+        "name": "Twitter",
+        "link": "https://twitter.com/RaziaJeni",
+        "image": "social/twitter.svg"
+    },
+    {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/RaziaSultanaJeni/",
+        "image": "social/facebook.svg"
+    },
+    {
+        "name": "Instagram",
+        "link": "https://www.instagram.com/raziasultanajeni/",
+        "image": "social/instagram.svg"
+    }
+]

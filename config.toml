@@ -1,0 +1,64 @@
+baseURL = "https://www.example.com/"
+languageCode = "en-us"
+title = "Razia Sultana Jeni"
+themesDir = "themes"
+theme = "hugo-hero-theme"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.92.0"
+    
+[params]
+  google_analytics_id=""
+
+  [params.logo]
+    mobile = "images/logo-mobile.svg"
+    mobile_height = "36px"
+    mobile_width = "36px"
+    desktop = "images/logo.jpeg"
+    desktop_height = "29px"
+    desktop_width = "217px"
+    alt = "Hugo Hero"
+
+  [params.homepage_meta_tags]
+  meta_description = "The road is on your foot. The heart is far away."
+  meta_og_title = "Razia Sultana Jeni"
+    #meta_og_type = "website"
+    #meta_og_url = "https://hugo-hero.netlify.app"
+    #meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
+    #meta_og_description = "The road is on your foot. The heart is far away."
+    #meta_twitter_card = "summary"
+    #meta_twitter_site = "@zerostaticio"
+    #meta_twitter_creator = "@zerostaticio"
+
+#[[menu.main]]
+#	name = "Services"
+#	url = "/services/"
+ #   weight = 1
+
+[[menu.main]]
+	name = "Writeups"
+	url = "/writeups/"
+    weight = 1
+
+
+[[menu.main]]
+    name = "Published"
+    url = "/published/"
+    weight = 3
+
+[[menu.main]]
+    name = "Upcoming"
+    url = "/upcoming/"
+    weight = 3
+
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
